@@ -1,0 +1,60 @@
+.cards {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  position: relative;
+  background-color: #E9EBEE;
+}
+
+.card-category {
+  border: 4px;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  opacity: .8;
+}
+
+.card-category:hover {
+  opacity: 1;
+}
+
+.card-category p {
+  padding-left: 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(255, 255, 255,.8);
+  padding-top: 250px;
+}
+
+.card-category:hover p {
+  color: rgba(252, 252, 252,1);
+}
+
+.vault {
+  border: 4px;
+  border-radius: 30px;
+  height: 300px;
+  width: 480px;
+  opacity: .8;
+}
+
+.vault p {
+  padding-left: 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgba(255, 255, 255,.8);
+  padding-top: 250px;
+}
+
+
+.vault:hover {
+  opacity: 1;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}
